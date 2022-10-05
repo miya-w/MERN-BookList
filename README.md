@@ -1,6 +1,6 @@
 # MERN-BookList (RESTful API)
 ### About this project
-- Build a CRUD(Create, Read, Update, and Delete) app using one of the most popular web framework with MERN(MongoDB, ExpressJS, React, and NodeJS) stack.
+- Build a CRUD(Create, Read, Update, and Delete) app using web framework with MERN(MongoDB, ExpressJS, React, and NodeJS) stack.
 - Connect Front-end application(React) with Backend application(Express, MongoDB, NodeJS).
 
 ![](https://github.com/miya-w/MERN-BookList/blob/main/img/Screen%20Shot%202022-10-05%20at%204.53.51%20pm.png)
@@ -24,9 +24,9 @@ These are resources into a bunch of unique [URI or uniform resource]() identifie
 
 ---
 ###resources
-[Medium- Restful API Design](https://medium.com/@rachna3singhal/restful-api-design-95b4a8630c26)
-[Red Hat - What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
-[wiki- 表現層狀態轉換](https://zh.wikipedia.org/zh-tw/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
+- [Medium- Restful API Design](https://medium.com/@rachna3singhal/restful-api-design-95b4a8630c26)
+- [Red Hat - What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
+- [wiki- 表現層狀態轉換](https://zh.wikipedia.org/zh-tw/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
 
 
 
