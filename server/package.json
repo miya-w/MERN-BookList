@@ -1,0 +1,27 @@
+{
+  "name": "MERN-BookList",
+  "version": "1.0.0",
+  "description": "- Build a CRUD(Create, Read, Update, and Delete) app using web framework with MERN(MongoDB, ExpressJS, React, and NodeJS) stack. - Connect Front-end application(React) with Backend application(Express, MongoDB, NodeJS).",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miya-w/MERN-BookList.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miya-w/MERN-BookList/issues"
+  },
+  "homepage": "https://github.com/miya-w/MERN-BookList#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20"
+  }
+}

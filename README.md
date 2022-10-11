@@ -19,15 +19,77 @@ RESTful means they follow a set of rules or constraints known as a representatio
 
 These are resources into a bunch of unique [URI or uniform resource]() identifiers that differentiate different types of data resources on a server and a client can get by the data by making a request to that endpoint over [HTTP requests](https://www.geeksforgeeks.org/different-kinds-of-http-requests/).
 
+## Dependencies
+- Node.js Official Guides for [https://nodejs.org/en/docs/][PlDb]
+- Express framework
+    - Example of an Express server
+    - Routing for Express
+- Node.js packages:
+    - cors
+    - body-parser
+    - nodemon
+    - mongoose
+
+ 1. Getting Start - SERVER
+```
+1. npm init -y
+    -> this creates package.json file
+    
+2. npm install express mongoose cors nodemon body-parser
+    -> this installs these packages
+
+```
+
+```
+- nodemon
+/ package.json -> restart the server whenever we change the code
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
+  },
+```
+
+### Middle Ware
+- body-parser[Body Parser In Express JS](https://www.simplilearn.com/tutorials/nodejs-tutorial/body-parser-in-express-js)
+    - Express body-parser is an npm module used to process data sent in an HTTP request body.
+    - Specifically in the context of a POST, PATCH, or PUT HTTP request where the information you want is contained in the body.
+    - Using body-parser allows you to access req.body from within routes and use that data.
+
+### Mongoose
+
+- set up schema
+- get post delete patch -> set up
+
+```
+\router\books
+const router = express.Router();
+```
+
+
+## client side
+
+
 
 
 
 ---
-###resources
+### Resources
 - [Medium- Restful API Design](https://medium.com/@rachna3singhal/restful-api-design-95b4a8630c26)
 - [Red Hat - What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api)
 - [wiki- 表現層狀態轉換](https://zh.wikipedia.org/zh-tw/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
+- [今晚我想來點 Express 佐 MVC 分層架構](https://ithelp.ithome.com.tw/articles/10241083)
+- [How not to use body-parser](https://medium.com/tds-note/how-not-to-use-body-parser-b93241ba2d6a)
+MongoDB
+mernBookList
+hsBWMo33z5IqtdQa
 
+mongodb+srv://mernBookList:hsBWMo33z5IqtdQa@cluster0.1wy3joh.mongodb.net/?retryWrites=true&w=majority
+
+Test 
+{
+    "title": "Harry Potter",
+    "description": "Good Novel"
+}
 
 
 
