@@ -37,6 +37,9 @@ These are resources into a bunch of unique [URI or uniform resource]() identifie
     
 2. npm install express mongoose cors nodemon body-parser
     -> this installs these packages
+3. Create app.js file, this will contain all connection information
+
+4. Create book.js in models folder this will create or fetch user
 
 ```
 
@@ -48,12 +51,26 @@ These are resources into a bunch of unique [URI or uniform resource]() identifie
     "start": "nodemon index.js"
   },
 ```
+2. Getting Start - CLIENT
+```
+//- React install
+    1. npx create-react-app .
+        Just like regular react project use this to create default react files
+    node index.js
+//- Start your new React app
+    2. npm start
+
+```
 
 ### Middle Ware
 - body-parser[Body Parser In Express JS](https://www.simplilearn.com/tutorials/nodejs-tutorial/body-parser-in-express-js)
     - Express body-parser is an npm module used to process data sent in an HTTP request body.
     - Specifically in the context of a POST, PATCH, or PUT HTTP request where the information you want is contained in the body.
     - Using body-parser allows you to access req.body from within routes and use that data.
+- CORS 
+    - Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that  allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+    - CORS allows you to configure the web API's security. It has to do with allowing other domains to make requests against your web API. For example, if you had your web API on one server and your web app on another you could configure CORS in your Web API to allow your web app to make calls to your web API. [What does cors middleware do?](https://stackoverflow.com/questions/44379135/what-does-cors-middleware-do)
+
 
 ### Mongoose
 

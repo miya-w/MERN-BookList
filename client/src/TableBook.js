@@ -1,7 +1,5 @@
 import React, {useState} from "react";
 
-
-
 function TableBook(props){
     const{books, onDelete, onUpdate} = props;
 
@@ -14,11 +12,12 @@ function TableBook(props){
             {
                 books.map(book =>{
                     return(
-                        <tr book={book.id}>
+                        <tr key={book.id}>
                             <td>{book.title}</td>
+                            <td>{book.description}</td>
                             {/* <td>{book.description}</td> */}
                             <DescriptionForm book={book} onUpdate={onUpdate} />
-                            <td><button onClick={() => onDelete(book._id)}>Delete</button></td>
+                            <td><button onClick={()=>onDelete(book._id)}>Delete</button></td>
                         </tr>
                     )
                 })
