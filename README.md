@@ -63,7 +63,15 @@ These are resources into a bunch of unique [URI or uniform resource]() identifie
     2. npm start
 
 ```
-
+### JSON
+- JSON stands for **JavaScript Object Notation**.
+```javascript
+response.json()
+```
+- To get JSON from the server using the Fetch API, you can use the **response.json() method**.
+- The **response.json()** method reads the data returned by the server and returns **a promise that resolves with a JSON object**.
+- [How do I fetch JSON from the server using Fetch API?](https://reqbin.com/code/javascript/wc3qbk0b/javascript-fetch-json-example)
+- [Example-100JSprojects-QuoteGenerator](https://github.com/miya-w/100JsProjects/blob/main/01-L3-QuoteGenerator/script.js)
 ### Middle Ware
 - body-parser[Body Parser In Express JS](https://www.simplilearn.com/tutorials/nodejs-tutorial/body-parser-in-express-js)
     - Express body-parser is an npm module used to process data sent in an HTTP request body.
@@ -98,6 +106,12 @@ const router = express.Router();
 - [wiki- 表現層狀態轉換](https://zh.wikipedia.org/zh-tw/%E8%A1%A8%E7%8E%B0%E5%B1%82%E7%8A%B6%E6%80%81%E8%BD%AC%E6%8D%A2)
 - [今晚我想來點 Express 佐 MVC 分層架構](https://ithelp.ithome.com.tw/articles/10241083)
 - [How not to use body-parser](https://medium.com/tds-note/how-not-to-use-body-parser-b93241ba2d6a)
+- [IT邦 - node.js - express #4](https://ithelp.ithome.com.tw/articles/10189578)
+- [Express ( Nodejs ) 取得 GET 、 POST 與 Routing 值](https://ithelp.ithome.com.tw/articles/10090909)
+- [CodeAcademy - What is Node?](https://www.codecademy.com/article/what-is-node)
+- [JavaScript fetch API - Why does response.json() return a promise object (instead of JSON)? [duplicate]](https://stackoverflow.com/questions/39435842/javascript-fetch-api-why-does-response-json-return-a-promise-object-instead)
+- [How do I send requests using JavaScript Fetch API?](https://reqbin.com/code/javascript/ricgaie0/javascript-fetch-api-example)
+- [How do I parse JSON in Javascript?](https://reqbin.com/code/javascript/vzx3pfwf/javascript-json-parse-example)
 MongoDB
 mernBookList
 hsBWMo33z5IqtdQa
@@ -108,6 +122,10 @@ Test
 {
     "title": "Harry Potter",
     "description": "Good Novel"
+}
+{
+    "title": "Where the Crawdads Sing",
+    "description": "Absolutely Devine"
 }
 
 
